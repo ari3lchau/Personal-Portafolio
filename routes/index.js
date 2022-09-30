@@ -11,11 +11,11 @@ router.get('/index', function(req, res, next) {
 });
 
 router.get('/about',function(req,res,next){
-  res.render('about',{ title: 'Express in about page' });
+  res.render('about',{ title: 'Software Developer' });
 })
 
 router.get('/aboutme',function(req,res,next){
-  res.render('aboutme',{ title: 'Express in about Me page' });
+  res.render('aboutme',{ title: 'Software Developer' });
 })
 
 router.get('/contact',function(req,res,next){

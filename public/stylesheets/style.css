@@ -52,9 +52,13 @@ nav li a:hover{
   color: orange;
 }
 #main-section{
+  
   font-weight: bold;
-  margin-top: 80px;
+  margin-top: 50px;
   font-size: 18px;
+}
+#main{
+  
 }
 #main-section a{
   text-decoration: none;
@@ -66,10 +70,23 @@ nav li a:hover{
 }
 #main-section button{
   font-size: 22px;
-  background-color: white;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
   border-radius: 7px;
   font-weight: bold;
+  padding: 5px;
 
+}
+#main-section button a{
+  color:white
+}
+#main-section button a:hover{
+  color: orange;
+
+}
+#main-section button:hover{
+  animation-name: identifier1;
+  animation-duration: 1s;
+  
 }
 #color{
   color: orange;
@@ -83,4 +100,23 @@ footer{
 
 }
 
+@keyframes identifier1 {
+  10%{font-size: 23px;}
+  40%{font-size: 24px;}
+  60%{font-size: 23px;}
+  100%{font-size: 22px;}
 
+
+}
+.grid-container{
+ 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1150px 200px;
+}
+#profilepic{
+ 
+ 
+  
+}
