@@ -26,6 +26,8 @@ nav ul{
 nav li{
   list-style: none;
   padding-top: 7px;
+  margin-right: 20px;
+
 }
 
 nav li a{
