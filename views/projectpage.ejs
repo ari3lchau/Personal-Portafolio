@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
+<%- include partials/header.ejs%>
     <link rel='stylesheet' href='/stylesheets/style3.css' />
-    <script src="https://kit.fontawesome.com/2ae6085b03.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    
   </head>
   <body>
 
@@ -32,9 +26,9 @@
             <h4>Some of my recent projects</h4>
         </div>
         <div id="grid-container">
-            <div id="one"><a href="http://studentweb.cencol.ca/achauzho/Weather/weather.html"><img src="images/weather.png" alt="weather app"></a></div>
-            <div id="two"><a href="http://studentweb.cencol.ca/achauzho/TO-DO%20LIST/todo.html"><img src="images/todo.png" alt="todo list app"></a></div>
-            <div id="three"><a href="http://studentweb.cencol.ca/achauzho/Rock%20Paper%20Scissor/rps.html"><img src="images/rpsgame.png" alt="rock paper scissor game"></a></div>
+            <div id="one"><a href="http://studentweb.cencol.ca/achauzho/Weather/weather.html" target="_blank"><img src="images/weather.png" alt="weather app"></a></div>
+            <div id="two"><a href="http://studentweb.cencol.ca/achauzho/TO-DO%20LIST/todo.html" target="_blank" ><img src="images/todo.png" alt="todo list app"></a></div>
+            <div id="three"><a href="http://studentweb.cencol.ca/achauzho/Rock%20Paper%20Scissor/rps.html" target="_blank"><img src="images/rpsgame.png" alt="rock paper scissor game"></a></div>
         </div>
         <div id="grid-container">
             <div id="one"><span id="color">Tracking weather application</span>: This is a web application that tracks the current weather of the place. It provides: 
@@ -61,9 +55,4 @@
             </div>
         </div>
     </main>
-    <footer>
-      <hr>
-      <p>&copy; Copyright - COMP 229 - Fall Semester 2022 - Ariel Chau - Centennial College</p>
-    </footer>
-  </body>
-</html>
+    <%- include partials/footer.ejs%>

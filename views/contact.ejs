@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
+<%- include partials/header.ejs%>
     <link rel='stylesheet' href='/stylesheets/style5.css' />
-    <script src="https://kit.fontawesome.com/2ae6085b03.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    
   </head>
   <body>
 
@@ -64,18 +58,14 @@
             </form>
             <div id="second-section">
                 <p>Feel free to take a look on my social medias!</p>
-                <a href="https://www.linkedin.com/in/arielchau/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/ari3lchau/"><i class="fa-brands fa-github"></i></a>
-                <a href="mailto:achauzho@my.centennialcollege.ca"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/arielchau/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ari3lchau/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:achauzho@my.centennialcollege.ca" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
         
 
     </main>
-    <footer>
-      <hr>
-      <p>&copy; Copyright - COMP 229 - Fall Semester 2022 - Ariel Chau - Centennial College</p>
-    </footer>
-  </body>
-</html>
+  <%- include partials/footer.ejs%>
+
 
