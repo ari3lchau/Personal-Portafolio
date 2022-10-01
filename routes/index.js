@@ -10,9 +10,7 @@ router.get('/index', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/about',function(req,res,next){
-  res.render('about',{ title: 'Software Developer' });
-})
+
 
 router.get('/aboutme',function(req,res,next){
   res.render('aboutme',{ title: 'Software Developer' });
