@@ -63,7 +63,7 @@
   }
 
 #myWork{
-    border: 1px solid white;
+    
     text-align: center;
 }
 #myWork h1{
@@ -79,13 +79,20 @@
     grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 10px;
     margin-top: 10px;
+    line-height: 27px;
     
 }
 #grid-container div{
-    border: 1px solid white;
+  
 }
 #grid-container div img{
     width: 100%;
+}
+#color{
+    color: orange;
+}
+#grid-container div a img:hover{
+    width: 650px;
 }
   
   
