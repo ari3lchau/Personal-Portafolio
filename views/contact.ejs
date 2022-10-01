@@ -1,19 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is the Contact page</h1>
-    <p>Welcome to <%= title %></p>
-    <a href="index">Send me to home page</a>
-    <a href="about">Send me to About page</a>
-    <a href="aboutme">Send me to About me page</a>
-    <a href="contact">Send me to contact page</a>
-    <a href="projectpage">Send me project page</a>
-    <a href="service">Send me to service page</a>
-</body>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style5.css' />
+    <script src="https://kit.fontawesome.com/2ae6085b03.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <img class="logo" src="images/Logo.png" alt="logo photo">
+        <li><a href="index"><i class="fa-solid fa-house"></i>Home</a></li> 
+        <!--<a href="about"><i class="fa-solid fa-address-card"></i>About</a></li>-->
+        <li><a href="aboutme"><i class="fa-solid fa-id-badge"></i>About Me</a></li> 
+        <li><a href="projectpage"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+        <li><a href="service"><i class="fa-solid fa-brands fa-servicestack"></i>Services</a></li> 
+        <li><a class="home"  href="contact"><i class="fa-solid fa-message"></i>Contact</a></li>
+        
+        
+      </ul>
+    </nav>
+
+    <hr>
+  
+    <main>
+        <div>
+            <h1>Contact Me</h1>
+            <p>Do you have any questions? Please contact me directly. I will be back to you as fast as possible to help you.</p>
+            
+        </div>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <table>
+                        <tr>
+                            <td><label for="firstname">First Name:</label></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastname">Last Name:</label></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="contactnumber">Contact Number:</label></td>
+                            <td> <input type="phone"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email: </label></td>
+                            <td><input type="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="textarea">Your message: </label></td>
+                            <td><textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Please type here..."></textarea></td>
+                        </tr>
+                        
+                    </table>
+                    <button><a href="index">Submit</a></button>
+                </fieldset>
+            </form>
+            <div id="second-section">
+                <p>Feel free to take a look on my social medias!</p>
+                <a href="https://www.linkedin.com/in/arielchau/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ari3lchau/"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:achauzho@my.centennialcollege.ca"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        
+
+    </main>
+    <footer>
+      <hr>
+      <p>&copy; Copyright - COMP 229 - Fall Semester 2022 - Ariel Chau - Centennial College</p>
+    </footer>
+  </body>
 </html>
+
